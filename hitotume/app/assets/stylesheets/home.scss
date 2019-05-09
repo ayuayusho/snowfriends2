@@ -3,31 +3,30 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
-/* topのsnowfriendsのとこ */
+/* header */
 header{
-
-
-    
+    color: black;
 }
 
 
 
-
-
-
-
+/* topのsnowfriendsのとこ */
 .top_main{
-    background-image: url(/IMG_1595.jpg);
+    background-image: url(/ski.JPG);
     height: 800px;
     background-size:cover;
 }
 
 
 
-h1{
+h2{
     color: brown;
+    font-size: 50px;
+}
 
+p{
+    color: black;
+    font-size: 40px;
 }
 
 
