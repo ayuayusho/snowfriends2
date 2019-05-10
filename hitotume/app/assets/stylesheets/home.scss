@@ -14,8 +14,16 @@ body {
   .header-logo a{
     color: white;
     font-size: 40px;
+    letter-spacing: 2px;
   }
   
+  .new-logo a{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    
+    
+  }
 
 
 
@@ -33,4 +41,9 @@ h2{
 }
 
 
-
+/* 登録画面 */
+.newuser{
+  color:white;
+  font-size:40px;
+  
+}

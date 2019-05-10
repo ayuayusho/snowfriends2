@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get "/" => "home#top"
-  get "sub" => "home#sub"
+  get "subscribe" => "home#sub"
 
 
   
