@@ -5,4 +5,9 @@ class HomeController < ApplicationController
   def sub
 
   end
+
+  def list
+    
+  end
+
 end
