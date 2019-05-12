@@ -8,6 +8,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <% #body内が共通レイアウト。今回はヘッダーにする。 %>
   <body>
     <header>
      <div class="header-logo">
@@ -23,3 +24,5 @@
     <%= yield %>
   </body>
 </html>
+
+

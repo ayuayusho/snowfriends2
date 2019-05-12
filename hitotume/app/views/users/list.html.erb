@@ -1,0 +1,13 @@
+ 
+ 
+ <% #ユーザー一覧にしたいけどうまくいってない %>
+<div class = "itiran">
+    <h2>ユーザー一覧<h2>
+    <%= @users.each do |u| %>
+        <div class = "lists">  
+            <%= u.name %>
+        </div>
+    <% end %>
+</div>
+
+
