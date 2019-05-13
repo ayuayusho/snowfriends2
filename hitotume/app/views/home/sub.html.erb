@@ -25,25 +25,25 @@
      </div>
 
      <% #入力フォーム %>
-     <div class="memory">
-      <p style="text-align: center"> 
-           ユーザーネーム
-          <input name="name">
-      </p>
-      <p style="text-align: center"> 
-          email
-           <input name="email">
-      </p>
-      <p style="text-align: center"> 
-            技術のレベル(例：360は回せる！)
-           <textarea name="level"></textarea>
-      </p>
-      <p style="text-align: center"> 
-           自由記入(求めるレベルや要望等)
-           <textarea name="free"></textarea>
-          
-        <% # 登録ボタンだけど登録が機能してない %>
-         <input type="submit", value="登録">
-       </p>
+     <form action="/users/create" method="create" class="memory">
+      <div class="memory">
+          <lavel for="name">ユーザーネーム</lavel>
+          <input type="text" name="name" id="name" required>
       </div>
+      <div class="memory">
+          <lavel for="email">email</lavel>
+           <input type="text" name="email" id="email" required>
+      </div>
+      <div class="memory">
+           <lavel for="level">技術レベル</lavel>
+           <input type="text" name="level" id="level" required>
+      </div>
+      <div class="memory">
+           <lavel for="free">自由記入</lavel>
+           <input type="text" name="free" id="free" required>
+      </div>
+      <div class="form-example">
+           <input type="submit" value="登録">
+      </div>
+     </form>
 </div>
