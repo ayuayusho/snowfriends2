@@ -1,13 +1,24 @@
- 
- 
- <% #ユーザー一覧にしたいけどうまくいってない %>
-<div class = "itiran">
-    <h2>ユーザー一覧<h2>
-    <%= @users.each do |u| %>
-        <div class = "lists">  
-            <%= u.name %>
-        </div>
-    <% end %>
+<% #ヘッダー　%>
+<div class="header">
+
+  <div class="header-logo">
+    <a href="/">Snowfriends</a>
+  </div>
+
+  <div class="header-new">
+     <a href="subscribe">新規登録</a>
+     <a href="list">ログイン</a>
+  </div>
 </div>
+ 
+ <% #ログイン画面に変更 %>
+<div class = "roguin">
+    <p style="text-align: center"> 
+        ログイン
+    </p>
+</div>
+    
+     
+    
 
 

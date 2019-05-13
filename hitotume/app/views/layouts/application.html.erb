@@ -8,21 +8,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <% #body内が共通レイアウト。今回はヘッダーにする。 %>
+
+  
   <body>
-    <header>
-     <div class="header-logo">
-       <a href="/">Snowfriends</a>
-     </div>
-     <div class="new-logo">
-        <p style="text-align: right">
-         <a href="subscribe">新規登録</a>
-         <a href="list">ユーザー</a>
-        </p>
-     </div>
-    </header>
     <%= yield %>
+
   </body>
+
+
 </html>
 
 

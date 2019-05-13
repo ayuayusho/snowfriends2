@@ -1,30 +1,49 @@
+<!DOCTYPE html>
 
-<% #新規登録 %>
-<div class="newuser">
-    <p style="text-align: center">
-      新規登録
-    </p>
+<% #ヘッダー %>
+<div class="header">
+
+<div class="header-logo">
+  <a href="/">Snowfriends</a>
 </div>
 
-<% #入力フォーム %>
-<div class="memory">
-   <p style="text-align: center"> 
-        ユーザーネーム
-       <input name="name">
-   </p>
-    <p style="text-align: center"> 
-       email
-       <input name="email">
-    </p>
-    <p style="text-align: center"> 
-         技術のレベル(例：360は回せる！)
-         <input name="level">
-    </p>
-    <p style="text-align: center"> 
-         自由記入(求めるレベルや要望等)
-         <input name="free">
+<div class="header-new">
+    <a href="subscribe">新規登録</a>
+    <a href="list">ユーザー</a>
+</div>
+
+</div>
+
+
+
+<div class="new">
+     <% #新規登録 %>
+     <div class="newuser">
+      <p style="text-align: center">
+           新規登録
+      </p>
+     </div>
+
+     <% #入力フォーム %>
+     <div class="memory">
+      <p style="text-align: center"> 
+           ユーザーネーム
+          <input name="name">
+      </p>
+      <p style="text-align: center"> 
+          email
+           <input name="email">
+      </p>
+      <p style="text-align: center"> 
+            技術のレベル(例：360は回せる！)
+           <textarea name="level"></textarea>
+      </p>
+      <p style="text-align: center"> 
+           自由記入(求めるレベルや要望等)
+           <textarea name="free"></textarea>
           
         <% # 登録ボタンだけど登録が機能してない %>
          <input type="submit", value="登録">
-    </p>
- </div>
+       </p>
+      </div>
+</div>
